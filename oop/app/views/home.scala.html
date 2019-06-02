@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/homepage.css")">
+		<title> Homepage </title>
+	</head>
+	<body>
+        <div class = "container">
+            <div class = "mainContainer">
+                <div class = "airplaneList">
+                   <form action = "#" class = "formAirplaneList">
+                        <input type = "submit" id = "addAirplane" value = "Add airplane">
+                        <input type = "submit" id = "addAirplanes" value = "Add airplanes">
+                    </form> 
+                </div>
+                <div class = "orderedAirplaneList">
+                    <form action = "#" class = "formOrderedAirplaneList">
+                        <input type = "submit" value = "Optimize">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="@routes.Assets.versioned("javascripts/homepage.js")" type="text/javascript"></script>
+	</body>
+</html>

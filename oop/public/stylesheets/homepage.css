@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+.container{
+    height: 100vh;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    
+    position: relative;
+    top: 5%;
+    left: 10%;
+
+    height: 80%;
+    width: 80%;
+}
+
+.airplaneList{
+    background: rgb(52, 110, 177);
+    height: 100%;
+    width: 30%;
+}
+.orderedAirplaneList{
+    background: rgb(190, 46, 46);
+    height: 100%;
+    width: 70%;
+}
+
+.formAirplaneList{
+    position: relative;
+    top: 100%;
+    left: 10%;
+}
+
+.formOrderedAirplaneList{
+    position: relative;
+    top: 100%;
+    left: 45%;
+}
+
+.mainContainer input{
+	text-align: center;
+	padding: 0.5em;
+	border: 1px solid rgb(212, 180, 180);
+	transition: 0.5s;
+	border-radius: 5px;
+}
+
+.mainContainer input:hover{
+	background: aqua;
+	cursor: pointer;
+}
+
+.ed-modal-container{
+    background: rgb(231, 227, 227, 0.7);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+}
+
+.ed-modal-content{
+    background: rgb(250, 250, 250);
+    width: 30%;
+    position: relative;
+    top: 20%;
+    left: 40%;
+}
+
+.formAddAirplane{
+    display: flex;
+    flex-direction: column;
+}
